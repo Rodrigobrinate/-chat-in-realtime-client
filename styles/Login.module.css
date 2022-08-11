@@ -1,0 +1,146 @@
+.content{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.content img {
+    width: 55%;
+    margin-top: 1rem;
+    height: auto;
+}
+
+.img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4da7e4;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.login {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 20px;
+    border-radius: 0px 20px 20px 0px;
+    color: black;
+}
+
+.login input {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 1;
+    outline: none;
+    color: black;
+   
+   
+    
+}
+
+.login button {
+    padding: .5rem 1rem;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
+    margin-top: 1rem;
+    background-color: #4da7e4;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.input {
+   padding: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+    margin:10px;
+    border: 1px solid #4da7e4;
+    border-radius: 10px;
+    user-select: none;
+    
+}
+
+.input legend {
+    margin-left: 20px;
+}
+
+.login input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+    -webkit-text-fill-color: black !important;
+
+}
+
+.login input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+    -webkit-text-fill-color: black !important;
+}
+
+.login input:autofill {
+    border: none;
+}
+
+.alert {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: rgb(207, 104, 104);
+    padding: 10px 100px;
+    opacity: 0;
+    
+}
+
+.none {
+    display: none !important;
+}
+.transition {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    
+}
+
+.notransition {
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    
+}
+
+
+.login hr{
+    width: 60%;
+    border: none;
+    border-top: .1rem solid #817f7f;
+    padding: 0px 20px;
+    color: black;
+    margin-top: 1.5rem !important;
+}
+
+.login a {
+    color: #4da7e4;
+    font-weight: 700;
+    text-decoration: none;
+}

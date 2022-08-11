@@ -1,0 +1,34 @@
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e44d4d;
+    margin-top: 20px;
+}
+
+.container ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.container ul li {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    
+    border-radius: 5px;
+
+}
+
+.name {
+    color: red;
+}
+
